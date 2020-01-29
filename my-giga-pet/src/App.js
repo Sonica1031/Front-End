@@ -5,6 +5,8 @@ import logo from './img/logo.png';
 import Carrot from './img/Carrot.png';
 import Lettuce from './img/Lettuce.png';
 import Broccoli from './img/Broccoli.png';
+import Bread from './img/Bread.png';
+import Steak from './img/Steak.png';
 import './App.css';
 
 function App() {
@@ -17,10 +19,11 @@ function App() {
           <img src={logo} alt="logo" width="300px" />
           </div>
           <div className="Sliders">
-          <SlideInDown><img src={Carrot} alt="falling-carrot" width="250px" /></SlideInDown>
+          <SlideInDown><img src={Carrot} alt="falling-carrot" /></SlideInDown>
           <SlideDown><img src={Broccoli} alt="falling-broccoli" /></SlideDown>
-          <SlideInDown><img src={Carrot} alt="falling-carrot" width="250px" /></SlideInDown>
-          <SlideDown><img src={Lettuce} alt="falling-lettuce" /></SlideDown>
+          <SlideInDown><img src={Steak} alt="falling-steak"/></SlideInDown>
+          <SlideDown><img src={Bread} alt="falling-bread"  /></SlideDown>
+          <SlideInDown><img src={Lettuce} alt="falling-lettuce" /></SlideInDown>
         </div>
         <h1>Giga Pet</h1>
         <p>The fun way to eat healthy!</p>
